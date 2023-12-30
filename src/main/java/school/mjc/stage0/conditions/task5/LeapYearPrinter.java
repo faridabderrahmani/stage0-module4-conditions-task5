@@ -1,6 +1,9 @@
 package school.mjc.stage0.conditions.task5;
 
 public class LeapYearPrinter {
+    public static void main(String[] args) {
+
+    }
     public void isLeapYear(int year) {
         if(year % 100 == 0 && year %4 == 0 && year % 400 == 0){
             System.out.println(true);
