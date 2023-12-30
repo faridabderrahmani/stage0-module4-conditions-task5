@@ -5,12 +5,12 @@ public class LeapYearPrinter {
 
     }
     public void isLeapYear(int year) {
-        if(year % 100 == 0 && year %4 == 0 && year % 400 == 0){
-            System.out.println(true);
-        }else if (year% 4 == 0){
-            System.out.println(true);
+        if(year % 100 == 0 && year % 4 == 0 && year % 400 == 0){
+            System.out.println("leap");
+        }else if (year % 100 != 0 && year% 4 == 0){
+            System.out.println("leap");
         }else{
-            System.out.println(false);
+            System.out.println("not leap");
         }
     }
 }
